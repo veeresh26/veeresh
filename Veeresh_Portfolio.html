@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeereshPortfolio.com</title>
+    <link rel="icon" href="pro.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6849194f52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenus">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></1i>
+                    <li><a href="#services">Services</a></11>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <h1>Hi, I'm <span>Veeresh</span><br>From Bangalore</h1><br>
+                <p> Jr.Web Developer</p>
+            </div>
+
+        </div>
+    </div>
+
+<!--------------about------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            
+            <div class="about-col-1">
+                <img src="i.png" alt="image">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p style="font-size: 20px;"><i>
+                    I am a recent Computer Science graduate with a strong foundation in Java,web development, and database management.
+                    I have hands-on experience developing projects like a student attendance system using facial recognition and a bank management system.
+                    My internship as a Front-End Developer at Q Spiders enhanced my skills in creating responsive user interfaces and problem-solving.
+                    I am eager to leverage my technical skills and passion for software development in a challenging role.</i>
+                </p>
+                <br>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                
+                
+                <div class="tab-contents active-tab" id="skills" style="font-size: 17px;">
+                    
+                    <ul>
+                        
+                        <li><span>Programming Languages :</span><br>Java, C, JavaScript, SQL, NoSQL</li><br>
+                        <li><span>Web Development :</span><br>HTML, CSS, JavaScript, Bootstrap</li><br>
+                        <li><span>Developer Tools :</span><br>VS Code, Eclipse IDE</li><br>
+                         
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience" style="font-size: 17px;">
+                    <ul>
+                        
+                        <li><span>Front-End Developer</span><br>worked as Intern at Q Spiders,Bangalore,India<br>2023</li> 
+                       
+                    </ul>
+                </div>
+               
+                <div class="tab-contents" id="education" style="font-size: 17px;">
+                    <ul>
+                        
+                        <li><span>Ballari Institute of Technology and Management</span><br>B.E in Computer Science,<br>CGPA : 7.25 <br> (2019 - 2023)</li><br>
+                        <li><span>Bellary Independent PU College XII</span><br>Percentage : 65% <br> (2018 - 2019)</li><br>
+                        <li><span>Nalanda Vidhyanikethana X</span><br>Percentage : 84.64% <br>(2016 - 2017)</li><br>
+                          
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!.........service.......................>
+
+<div id="services">
+    <div class="container" >
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Designed and developed responsive websites and web applications using HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2>
+                <p>Designed and developed responsive websites and web applications using HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2>
+                <p>Designed and developed responsive websites and web applications using HTML, CSS, and JavaScript.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------portfolio----------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="image">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>The app connects you to the talented peopel around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="image">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>The app connects you to the talented peopel around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="image">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>The app connects you to the talented peopel around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!---------------------contact------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">  
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i>veeresh0526@gmail.com</P>
+                <p><i class="fa-solid fa-phone"></i>6361193052</p>
+                <div class="social-icons">
+                    <a href="http://linkedin.com/in/veeresh-s-63b529250"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="http://instagram.com/veeresh._.kohli/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/veeresh.kohli.18"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required><br>
+                   <input type="email" name="Email" placeholder="Your Email" required><br>
+                   <textarea name="Message" rows="6" placeholder="Your Message" required></textarea><br>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Veeresh.Created with <i class="fas fa-heart"></i> by Tap Academy</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of  tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>      
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+   
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzrnfkewAgH9N87Oh-qy4aNC4nB0_u9Yngg6aQGJVL7oW3bjphMGbwuwkVmp1OlOJtz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
+        
+
+                    
